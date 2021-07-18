@@ -1,0 +1,78 @@
+<div class="container-fluid home">
+  <div class="row">
+      <div class="col-sm-12">
+       
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid">
+            <a class="navbar-brand bg-white" routerLink="/home" routerLinkActive="active">DEMO APP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+              <div class="navbar-nav ">
+                <a class="nav-link active" aria-current="page" routerLink="/home" routerLinkActive="active">HOME</a>
+                <a class="nav-link" routerLink="/aboutus" routerLinkActive="active" >ABOUT US</a>
+                <a class="nav-link" routerLink="/jobs" routerLinkActive="active">JOBS</a>
+                <a class="nav-link" routerLink="/clients" routerLinkActive="active">CLIENTS</a>
+                <a class="nav-link" routerLink="/employers" routerLinkActive="active">EMPLOYERS</a>
+                <a class="nav-link" routerLink="/contactus" routerLinkActive="active">CONTACT US</a>
+    
+              </div>
+            </div>
+          </div>
+        </nav>
+      
+        <!-- Navigation Menu ends -->
+        
+        <div class="container" id="containt">
+          <h1>I'm looking for..</h1>
+          <div class="input-group ">
+            <input type="text" class="form-control" placeholder="Enter a Job Description" aria-label="Recipient's username"
+              aria-describedby="basic-addon2">
+            <button class="btn btn-primary" id="basic-addon2" style="color: white;">Search</button>
+            <div class="container" id="lables">
+              <input type="checkbox">
+              <label style="padding-right: 5%;" for="vehicle1">Full Time</label>
+              <input type="checkbox" id="check">
+              <label for="vehicle1">Part Time/Casual/Freelance</label>
+              <select class="form-select"  aria-label="Default select example" id="sel">
+                <option selected>Select your Location</option>
+                <option value="1">Pune</option>
+                <option value="2">Mumbai</option>
+                <option value="3">Banglore</option>
+              </select>
+            </div>
+          </div>
+      
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            style="margin-left:42%;margin-top: 2%;">Register</button>
+        </div>
+      
+      </div>
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+  </div>
+</div>
+
+<router-outlet></router-outlet>

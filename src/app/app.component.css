@@ -1,0 +1,43 @@
+.home{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../assets/images/background.jpg);
+    background-size: cover;
+    
+}
+
+.navbar-collapse {
+  padding-left: 35%;
+}
+.navbar-light .navbar-nav .nav-link{
+         word-spacing: 3%;
+         color: white;
+         font-weight:400;
+}
+.active{
+     background-color: #0d6efd;
+  
+}
+nav{
+    padding-top: 7%;
+}
+h1{
+    font-style: italic;
+    color: white;
+    font-family:sans-serif;
+}
+#containt{
+    padding-top: 12%;
+}
+.input-group{
+    padding-top: 2%;
+    width: 90%;
+}
+#lables{
+    color: white;
+    padding-top: 2%;
+}
+#sel{
+    display: inline;
+    width: 30%;
+    margin-left: 66%;
+}
