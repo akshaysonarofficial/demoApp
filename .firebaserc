@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "demoapp-ec914",
+    "hosting": "angulardemo-c67c7",
+    "staging": "demoapp-da041"
+  }
+}
